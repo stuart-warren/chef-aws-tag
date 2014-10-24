@@ -25,4 +25,4 @@ Add a section to your custom json and set your own list of tags, eg:
 }
 ```
 
-Ensure that the opsworks role has the ability to CreateTags and DeleteTags.
+Ensure that the EC2 instance profile used has the ability to CreateTags, DescribeTags and DeleteTags.
